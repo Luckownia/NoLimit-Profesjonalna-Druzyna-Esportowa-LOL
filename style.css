@@ -739,7 +739,7 @@ label {
 
 @media(max-height:600px) {
     .ranga {
-        height: 210px;
+        width: 210px;
     }
 
     .player:hover .ranga {
