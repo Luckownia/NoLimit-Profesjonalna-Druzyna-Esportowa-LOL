@@ -137,7 +137,9 @@
         <article id="kontakt">
             <div class="kontaktowanko">
                 <h1>SKONTAKTUJ SIĘ Z NAMI</h1>
-                <form action="">
+                <form id="contactform" action="https://formsubmit.io/send/freshluckownia@gmail.com" method="POST">
+                    <input name="_redirect" type="hidden" id="name" value="thanks.html">
+                    <input name="_formsubmit_id" type="text" style="display:none">
                     <div class="kontakt">
                         <label for="nick">NICK</label>
                         <input id="nick" type="text" required placeholder="Wpisz swój nick">
